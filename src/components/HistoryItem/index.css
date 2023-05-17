@@ -1,0 +1,47 @@
+.item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  align-items: center;
+  height: 40px;
+  width: 800px;
+}
+.first {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.delete {
+  height: 20px;
+  width: 20px;
+  align-items: center;
+}
+.heading {
+  font-size: 15px;
+  font-weight: bold;
+  color: #475569;
+  margin-left: 12px;
+}
+.domain-url {
+  font-size: 10px;
+  font-weight: bold;
+  color: #64748b;
+  margin-left: 12px;
+}
+.time {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: bold;
+  margin-left: 12px;
+}
+.img {
+  height: 22px;
+  width: 24px;
+  margin-left: 12px;
+}
+.button {
+  background-color: transparent;
+  border: 0px solid transparent;
+  cursor: pointer;
+}
